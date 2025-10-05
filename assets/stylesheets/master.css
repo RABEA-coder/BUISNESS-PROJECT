@@ -261,7 +261,7 @@ main {
                 }
 
                 >.swipe-down {
-                    border: 1px solid white;
+                
                     width: 100%;
                     height: 80px;
                     display: block;
@@ -304,7 +304,7 @@ main {
             background: black;
             justify-content: center;
             align-items: center;
-            border: 1px tomato solid;
+    
 
 
             >section {
@@ -434,7 +434,7 @@ main {
             width: 100%;
             height: 160vh;
             background: black;
-            border: 3px solid white;
+            /* border: 3px solid white; */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -648,10 +648,6 @@ main {
             width: 100%;
             height: 120vh;
             background-color: black;
-            border: 1px solid red;
-
-
-
             >figure {
                 width: 100%;
                 height: 35%;
@@ -670,14 +666,14 @@ main {
                 height: 65%;
                 justify-content: center;
                 align-items: center;
-                border: 1px solid gold;
+                
 
                 >section {
 
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
-                    border: 1px solid blue;
+                    
 
                     &:nth-of-type(1) {
                         width: 100%;
@@ -696,7 +692,7 @@ main {
                             font-family: var(--bree-serif);
                             text-align: center;
                             width: 100%;
-                            border: 1px solid red;
+                     
 
                         }
 
@@ -707,7 +703,7 @@ main {
                             width: 60%;
                             text-align: center;
                             padding-block: 20px;
-                            border: 1px solid gold;
+                          
                         }
                     }
 
@@ -776,10 +772,7 @@ main {
 
         >#our-plans {
             width: 100%;
-            height: 240vh;
-
-            justify-content: center;
-            align-items: center;
+            height: 205vh;
             flex-direction: column;
 
             >section {
@@ -787,7 +780,7 @@ main {
 
 
                 &:nth-of-type(1) {
-                    height: 32%;
+                    height:70vh;
                     width: 100%;
                     margin-bottom: 20px;
                     justify-content: center;
@@ -799,17 +792,13 @@ main {
                         font-family: var(--open-sense);
                         font-size: 18.5px;
                         padding-block: 35px;
-
                     }
-
 
                     >strong {
                         font-size: 30px;
                         color: var(--white);
                         font-family: var(--bree-serif);
                         text-align: center;
-
-
                     }
 
                     >p {
@@ -1059,7 +1048,7 @@ main {
                 padding: 20px;
 
                 >span {
-                    color: var(--gray);
+                    color: var(--gray23);
                     font-family: var(--open-sense);
                     font-size: 18.5px;
                     padding-block: 35px;
@@ -1068,10 +1057,16 @@ main {
 
 
                 >strong {
-                    font-size: 32px;
+                    font-size: 30px;
                     color: var(--white);
                     font-family: var(--bree-serif);
                     text-align: center;
+                    line-height: 1.2;
+                    width: 95%;
+                    >span{
+                        width: 100%;
+                        display: block;
+                    }
 
 
                 }
@@ -1079,10 +1074,11 @@ main {
                 >p {
                     font-size: 18px;
                     font-family: var(--open-sense);
-                    color: var(--gray);
-                    width: 95%;
+                    color: var(--gray23);
+                    width: 70%;
                     text-align: center;
-                    padding-block: 20px;
+                    margin-bottom: 80px;
+                    padding-top: 20px;
                 }
             }
 
@@ -1093,6 +1089,7 @@ main {
                 justify-content: center;
                 align-items: center;
                 cursor: pointer;
+                padding-inline:10px ;
 
                 >li {
                     width: 90%;
@@ -1100,7 +1097,7 @@ main {
                     border: 0.5px solid var(--dark2brown);
                     border-radius: 7px;
                     margin-bottom: 10px;
-                    color: var(--gray);
+                    color: var(--gray23);
                     list-style: none;
                     display: flex;
                     justify-content: space-between;
@@ -1112,12 +1109,13 @@ main {
                     }
 
                     &:nth-of-type(1) {
-                        height: 290px;
+                        height: 390px;
                         justify-content: center;
                         align-items: center;
                         display: flex;
                         flex-direction: column;
-                        padding-bottom: 20px;
+                        padding-block: 30px;
+
                         border: 1px solid var(--white);
 
                         >span {
@@ -1150,6 +1148,7 @@ main {
                             font-weight: 400;
                             line-height: 26px;
                             font-family: var(--open-sense);
+                            color: var(--gray23);
                         }
                     }
 
@@ -1170,19 +1169,18 @@ main {
 
         >#Testimonials {
             width: 100%;
-            height: 220vh;
+            height: 130vh;
             background-color: black;
 
             >section {
                 width: 100%;
-                border: 1px solid wheat;
+                
 
                 &:nth-of-type(1) {
-                    height: 55%;
+                    height: 90vh;
 
-                    >* {
-                        border: 1px solid gold;
-                    }
+                    
+                    
 
                     >figure {
                         width: 100%;
@@ -1212,9 +1210,18 @@ main {
                             }
 
                             >span {
-                                color: rgb(126, 126, 126);
-                                font-size: 13px;
+                                color:var(--gray);
+                                font-size: 14px;
                                 padding-block: 5px;
+                                width:200px;
+                                display: flex;
+                                
+                                
+                                justify-content: center;
+                                &:nth-of-type(2){
+                                    font-size: 15px;
+                                    padding-top: 10px;
+                                }
 
 
                             }
@@ -1229,8 +1236,8 @@ main {
                         align-items: center;
 
                         >section {
-                            width: 70%;
-                            height: 80%;
+                            width: 80%;
+                            height: 85%;
                             display: flex;
                             justify-content: center;
                             align-items: center;
@@ -1238,6 +1245,7 @@ main {
                             background-color: #553929;
                             position: relative;
                             border-radius: 30px;
+                            padding-bottom: 20px;
 
                             >i {
                                 &:nth-of-type(1) {
@@ -1258,7 +1266,7 @@ main {
 
                             >p {
                                 /* padding-block: 30px; */
-                                color: var(--gray);
+                                color: var(--gray23);
                                 font-family: var(--open-sense);
                                 font-size: 18px;
                                 font-style: italic;
@@ -1272,7 +1280,7 @@ main {
                 }
 
                 &:nth-of-type(2) {
-                    height: 45%;
+                    height: 60vh;
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
@@ -1282,7 +1290,7 @@ main {
                         color: var(--gray);
                         font-family: var(--open-sense);
                         font-size: 18.5px;
-                        padding-block: 35px;
+                        padding-top: 35px;
                     }
 
 
@@ -1291,19 +1299,21 @@ main {
                         color: var(--white);
                         font-family: var(--bree-serif);
                         text-align: center;
+                        width: 100%;
                     }
 
                     >p {
-                        font-size: 20px;
+                        font-size: 18px;
                         font-family: var(--open-sense);
                         color: var(--gray);
-                        width: 60%;
+                        width: 65%;
                         text-align: center;
                         padding-block: 19px;
+                        font-weight: 500;
                     }
 
                     >.Read-more {
-                        width: 53%;
+                        width: 65%;
                         height: 55px;
                         display: flex;
                         justify-content: center;
@@ -1339,9 +1349,10 @@ main {
 
         >footer {
             width: 100%;
-            height: 190vh;
+            height: 150vh;
             margin-top: 150px;
             position: relative;
+            
 
 
             >img {
@@ -1352,6 +1363,8 @@ main {
                 top: 0;
                 left: 50%;
                 transform: translate(-50%);
+                
+                
             }
 
             >div {
@@ -1370,10 +1383,12 @@ main {
                         justify-content: center;
                         align-items: center;
                         padding-top: 40px;
+                        
 
                         >img {
-                            width: 50%;
-                            height: 19%;
+                            width: 250px;
+                            height: 6 0px;
+                            
                         }
 
                         >figcaption {
@@ -1417,17 +1432,17 @@ main {
                             >ul {
                                 height: 85%;
                                 width: 100%;
-                                padding: 15px;
+                        
 
                                 >li {
-                                    width: 40%;
-                                    padding-left: 40px;
+                                    width: 50%;
+                                    /* padding-left: 20px; */
 
                                     list-style: none;
                                     font-family: var(--open-sense);
 
                                     &:nth-of-type(1) {
-
+                                        width: 45%;
                                         height: 100%;
 
                                         >ul {
@@ -1435,6 +1450,7 @@ main {
                                             height: 100%;
                                             display: flex;
                                             align-content: flex-start;
+                                            padding-left: 20px;
 
                                             >li {
 
@@ -1442,7 +1458,7 @@ main {
                                                 color: var(--white);
                                                 list-style: none;
                                                 padding-block: 13px;
-                                                font-size: 15px;
+                                                font-size: 13px;
                                                 transition: .4s;
 
 
@@ -1469,6 +1485,7 @@ main {
                                     &:nth-of-type(2) {
 
                                         height: 100%;
+                                        width: 55%;
 
                                         >ul {
                                             width: 100%;
@@ -1482,13 +1499,13 @@ main {
                                                 color: var(--white);
                                                 list-style: none;
                                                 padding-block: 13px;
-                                                font-size: 15px;
+                                                font-size: 13px;
                                                 transition: .4s;
 
                                                 >i {
                                                     font-size: 15px;
                                                     color: var(--brown);
-                                                    padding-inline: 12px;
+                                                    padding-right: 12px;
                                                     opacity: .4;
                                                 }
 
@@ -1530,13 +1547,14 @@ main {
                                 height: 85%;
                                 width: 100%;
                                 padding: 15px;
+                                
 
                                 >li {
-                                    width: 40%;
-                                    padding-left: 40px;
+                                    width: 50%;
+                                    /* padding-left: 40px; */
                                     list-style: none;
                                     font-family: var(--open-sense);
-
+                                    
                                     height: 100%;
 
                                     >ul {
@@ -1544,6 +1562,7 @@ main {
                                         height: 100%;
                                         display: flex;
                                         align-content: flex-start;
+                                        
 
                                         >li {
 
@@ -1554,6 +1573,7 @@ main {
                                             font-size: 15px;
                                             display: flex;
                                             transition: .4s;
+                                            
 
                                             >i {
                                                 font-size: 15px;
