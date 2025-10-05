@@ -362,7 +362,7 @@ main {
                         width: 340px;
                         height: 310px;
                         border: 1px solid var(--brown);
-                        border-radius: 5px;
+                        /* border-radius: 5px; */
                         justify-content: center;
                         align-items: center;
                         display: flex;
